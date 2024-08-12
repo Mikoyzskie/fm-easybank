@@ -7,7 +7,7 @@ export default function Header() {
     const links = ["Home", "About", "Contact", "Blog", "Careers"]
 
     return (
-        <div className="bg-white">
+        <div className="bg-white relative z-20">
             <header className={`${styles.maxWidth} py-[18px] flex justify-between items-center `}>
                 <Image
                     src={"logo.svg"}

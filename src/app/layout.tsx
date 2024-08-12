@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${publicSans.className} bg-[#fafafa]`}>
+      <body className={`${publicSans.className} bg-[#fafafa] overflow-hidden`}>
         <Header />
         {children}
       </body>
