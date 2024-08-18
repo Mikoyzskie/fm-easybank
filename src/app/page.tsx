@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="">
-      <section className={`${styles.maxWidth} relative py-[170px] z-10`}>
+      <section className={`${styles.maxWidth} relative py-[170px]`}>
         <div className="max-w-[447px]">
           <h1 className="font-light text-[56px] leading-[64px] mb-6">Next generation digital banking</h1>
           <p className="text-[#9597A5] text-lg mb-9">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
@@ -18,6 +18,7 @@ export default function Home() {
             alt="Hero mockup"
             height={900.5}
             width={731.25}
+            className="relative z-10"
           />
         </div>
         <Image
@@ -25,7 +26,7 @@ export default function Home() {
           alt="Hero mockup background"
           height={956}
           width={1371}
-          className="absolute -top-[180px] -right-[571px]"
+          className="absolute -top-[180px] -right-[571px] z-0"
         />
       </section>
     </main>
